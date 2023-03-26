@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+    .button_style{
+        background: #df922f;
+        font-family: Tahoma;
+        color: #ffffff;
+        border:1;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 16.5%;
+        height: 6%;
+        font-size:100%;
+        position:absolute;
+        bottom:43.5%;
+        right:42%;
+    }
+    .place_holder_style{
+
+        font-family: Tahoma;
+        color: #000000;
+        border:1;
+        font-weight: bold;
+        border-radius: 5px;
+        width: 16%;
+        height: 8%;
+        font-size:100%;
+        position:absolute;
+        bottom:50%;
+        right:42%;
+    }
+    body{
+        background-color: #FAF0E6;
+    }
+
+</style>
+    <meta charset="UTF-8">
+    <title>Ввод даных</title>
+</head>
+<body>
+    <form action="input/" method = "POST" >
+    {%csrf_token%}
+        <input type="text" placeholder="Введите id" name = "id" class="place_holder_style"><br>
+
+        <button TYPE="submit" class="button_style">Построить граф</button>
+    </form>
+</body>
+</html>
