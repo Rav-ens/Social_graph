@@ -8,9 +8,6 @@ import vk_api
 import time
 
 
-#TOKEN = "vk1.a.7ykQpV2_PL5tiIVR9AsjREucM9peiHMzruGITu66tuj5eZPLujfpjqkkNP7a6xx37PIUvAAAzib6J8f58oFnwvLsEFqmdlYShYnuSssdv9s4PT4yuoNQhNh_esAtPymhwW1Dsee9sia-GCWHtY-v3KVCKfi3ejtroNsV7tmLHX4j3C4A3enpanv96UrmEtZD7-cy-UJzp2NWnOWgFBn6EA"
-#TOKEN = "a7b4e515a7b4e515a7b4e515cca4a7dbebaa7b4a7b4e515c394af17e69eb3199f9661c9"
-TOKEN = "vk1.a.V7VhPuC3e3YTK6JSEQLaofXzNw19RsUnkdZMyFH_Qn_Wd2Pez4zlmWWZ-gzDZVX80-CuHjTUukWy_dyEIEXrUmh6Nj5FN-vSC7PlvIKQNxdeJ-BoxLwaMw2qPf-sNX4Lof1_zwPay89P6zlxGdeOP7gIMZV75O34HzeOr5hcTTMxrJivZYBxyV8kUvDUpnGK&expires_in=86400"
 def index(request):
     return render(request, "inputData/index.html")
 
